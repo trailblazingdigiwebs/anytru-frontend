@@ -1,0 +1,45 @@
+.drag-and-drop {
+    border: 2px dashed #0070f3;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.2s ease;
+}
+
+.drag-and-drop:hover {
+    background-color: #f0f0f0;
+}
+
+.upload {
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.uploadimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.uploadtext {
+    margin-top: 10px;
+}
+
+.uploadlimit {
+    font-size: 12px;
+    color: #777;
+}
+
+.preview {
+    margin-top: 10px;
+    max-width: 450px;
+    height: auto;
+}
+
+.uploadHelpText {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
